@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+}
+#fname {
+    padding: 14px;
+    margin-top: 14px;
+    border: 1px solid #ccc;
+    width: 35%;
+    float: left;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+#lname {
+    padding: 14px;
+    border: 1px solid #ccc;
+    width: 53%;
+    margin-top: 14px;
+    margin-left: 6px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+.name {
+    padding: 6px;
+    margin: 5px;
+}
+#comment {
+    width: 89%;
+    height: 109px;
+    border: 1px solid #ccc;
+    margin-top: 21px;
+    padding: 12px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+#Email {
+    width: 89%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    margin-top: 14px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+#Email:focus { background-color: white;
+border:1px solid green;
+}
+#comment:focus { background-color: white;
+    border:1px solid green;
+    }
+    #fname:focus { background-color: white;
+        border:1px solid green;
+        }
+        #lname:focus { background-color: white;
+            border:1px solid green;
+            }
+             
+             
+        
+            .name {
+                padding: 26px;
+               
+                margin-top: 15px;
+            }
+            
+            .container- {
+                background-image: url('../img/devlopment.jpg');
+                overflow: hidden;
+                z-index: 1;
+                height:auto;
+				padding-bottom:50px;
+                background-position: 100% 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+				
+            }
+.col-1 {
+    overflow: hidden;
+    float: left;
+    width: 50%;
+}
+.col-2 {
+    overflow: hidden;
+    float: left;
+    width: 50%;
+}
+.aside {
+    margin-top: 10px;
+    padding: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f6f4f1;
+}
+@media screen and (max-width: 800px) {
+    .col-1, .col-2, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      margin:auto;
+	  
+    }
+  }
+  @media screen and (max-width: 800px) {
+     .col-2,.name,.button,.f{
+      width: 100%; 
+      margin:auto;
+	 
+    }
+  }
+   @media screen and (max-width: 800px) {
+    .map, .f{
+      width: 100%; 
+      margin:auto;
+	 
+	 
+    }
+  }
+   @media screen and (max-width: 800px) {
+    .map{
+      width: 100%; 
+    margin:auto;
+	 
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .button {
+     width: 89%; 
+     margin:auto;
+	 
+   }
+ }
+  .button-1 {
+    padding: 10px;
+    margin-top: 12px;
+    min-width: 90px;
+    border-radius: 5px;
+    background-color: #84ba3f;
+}
+.button-1:hover{
+	background:#51c866;
+}
+.f{
+	 background-image: url('../img/dev.jpg');
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.92), 0 6px 20px 0 rgba(0, 0, 0, 0.73);
+     margin-right: 76px;
+     margin-top: 111px;
+     max-width: 556px;
+     width: 100%;
+	 overflow:hidden;
+	 border-radius: 15px;
+	 padding-bottom: 80px;
+}
+.contac h1 {
+    text-align: center;
+    color: white;
+}
+.fab.fa-facebook-square{
+
+    color: white;
+    background: #007BB5;
+    padding: 17px;
+   
+	  border-radius: 50%;
+    transition: 2s;
+
+}
+.fab.fa-facebook-square:hover{
+	background:black;
+	color:white;
+}
+.fab.fa-instagram {
+
+   
+    padding: 16px;
+    background-color: #dd4b39;
+    color: white;
+
+    border-radius: 50%;
+    transition: 2s;
+}
+.fab.fa-instagram:hover{
+	background:black;
+	color:white;
+}
+.fab.fa-linkedin {
+
+   
+   
+    background: #007bb5;
+    padding: 16px;
+    color: white;
+	  border-radius: 50%;
+    transition: 2s;
+
+}
+.fab.fa-linkedin:hover{
+	background:black;
+	color:white;
+}
+.fab.fa-youtube {
+
+    background: #b00;
+    padding: 16px;
+    color: white;
+  border-radius: 50%;
+    transition: 2s;
+}
+.fab.fa-youtube:hover{
+	background:black;
+	color:white;
+}
+.map {
+    margin-top: 109px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 2px solid #a8c1f9;
+    width: 86%;
+    height: 250px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-left: 41px;
+}
+.l {
+
+    color: black;
+    padding: 0px;
+    margin: 0px;
+
+}
+/*--------------hover-------------------*/
+.button-03 {
+  border-radius: 14px;
+  background-color:  #84ba3f;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 14px;
+  width: 116px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-03 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-03 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-03:hover span {
+  padding-right: 25px;
+}
+
+.button-03:hover span:after {
+  opacity: 1;
+  right: 0;
+}
